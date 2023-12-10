@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #e6e6e6;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .info-card {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 100px auto;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .info-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .info-card.scale {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .info-card h2 {
+    font-weight: bold;
+  }
+  
